@@ -1,0 +1,77 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(19, 23, 23);
+    color: rgb(23, 161, 161);
+    font-family: 'segoe UI';
+
+}
+
+.logo {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.logo:hover{
+    transition: all 0.3s ease;
+    color: aqua;
+    transform: scale(1.03);
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links {
+    color: rgb(173, 11, 191);
+    font-weight: 700;
+    
+}
+
+.links:hover{
+    transition: all 0.3s ease;
+    color: rgb(132, 1, 255);
+    transform: scale(1.03);
+}
+
+.harmburger{
+    display: none;
+    size: 2rem;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .links.show {
+        display: flex;
+    }
+
+    .harmburger {
+        display: block;
+    }
+
+    .harmburger {
+     font-weight: 700;
+     color: rgb(26, 230, 19);
+    }
+
+    .harmburger:hover {
+      transition: all 0.3s ease;
+      color: rgb(111, 255, 0);
+      transform: scale(1.03);
+    }
+
+}
