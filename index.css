@@ -1,16 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: rgb(19, 23, 23);
-    color: rgb(23, 161, 161);
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(217, 95, 2);
     font-family: 'segoe UI';
+    
 
 }
 
 .logo {
-    font-size: larger;
+    margin-left: 30px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -20,22 +28,9 @@ header {
     transform: scale(1.03);
 }
 
-.links {
-    display: flex;
-    gap: 20px;
-}
+/* The Links to the other pages */
 
-.links {
-    color: rgb(173, 11, 191);
-    font-weight: 700;
-    
-}
 
-.links:hover{
-    transition: all 0.3s ease;
-    color: rgb(132, 1, 255);
-    transform: scale(1.03);
-}
 
 .harmburger{
     display: none;
