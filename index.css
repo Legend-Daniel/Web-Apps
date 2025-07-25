@@ -40,7 +40,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(212, 7, 212);
+  color: rgb(43, 161, 7);
   font-weight: 600;
 }
 
@@ -101,4 +101,13 @@ nav ul li a:hover {
   width: 100%;
   height: 100vh;
   background-color: #cccaca;
+}
+
+.welcome {
+  width: 100%;
+  height: 720px;
+  background-image: url("https://wallpapercave.com/wp/wp7151247.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
